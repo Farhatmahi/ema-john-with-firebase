@@ -1,0 +1,23 @@
+Auth setup
+    1. create firebase
+    2. enable web
+    3. enable sign in method
+    4. npm install firebase
+    5. get firebase config in your src
+    6. export app
+    
+
+1. create UserContext(auth context) : UserContext is a component which provides the auth context
+2. create authContext
+3. set authContext.Provider
+4. make sure you set the children
+5. export the authContext
+5. use the UserContext component in index.js to wrap around app, so that whatever comes in app gets the context
+6. get form data in console
+7. getAuth in UserContext
+8. create a function with param email and password, which will return createUserWithEmailAndPassword(auth, email, password)
+9. add the function to the authInfo 
+10. call the useContext on the component you want to use, then on the handle method, call the function with promise
+
+step 8-10 for all (sign in, sign out, register)
+

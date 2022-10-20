@@ -17,3 +17,8 @@
 .header a:hover{
     color: orange;
 }
+
+.header {
+    color: white;
+    font-weight: bold;
+}
